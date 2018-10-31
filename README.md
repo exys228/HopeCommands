@@ -1,7 +1,7 @@
 # HopeCommands
 Making osu!hope plugins fully commandable.
 
-Note that you will need to fix project's HOPEless and osu.Shared references.
+Note that you will need to fix project's [HOPEless](https://github.com/HoLLy-HaCKeR/HOPEless) and [osu.Shared](https://github.com/HoLLy-HaCKeR/osu.Shared) references.
 
 Example usage:
 ```csharp

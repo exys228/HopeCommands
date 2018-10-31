@@ -11,11 +11,19 @@ public class SomePlugin : CommandBase, IHopePlugin
 {
 	// ...
 	
+	private const string PluginName = "SomePlugin";
+	private const string ChannelName = "#somechannel";
+	
+	public SomePlugin() : base(PluginName, ChannelName)
+	{
+		
+	}
+	
 	public void Load()
 	{
 		AddCommand("test", "print some text", delegate (string[] args)
 		{
-			SendPlayerMessage("SomePlugin", "yo", "#somechannel", 0);
+			SendPlayerMessage(PluginName, "yo", ChannelName, 0);
 		});
 	}
 	

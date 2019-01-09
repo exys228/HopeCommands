@@ -29,6 +29,7 @@ namespace exys228.HopeCommands
 		{
 			PluginName = pluginName;
 			ChannelName = channel;
+			CommandChar = commandChar;
 
 			CommandList.Add(new Command("help", "display help", delegate(string[] args)
 			{
